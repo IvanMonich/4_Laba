@@ -1,0 +1,97 @@
+.background {
+    position: fixed;
+    width: 600px;
+    height: 480px;
+
+    left: calc(50% - 300px);
+    top: 10px;
+
+    border-radius: 14px;
+    background: #FFFFFF;
+}
+
+.add {
+    position: relative;
+    height: 50px;
+    width: 100px;
+
+    left: 250px;
+    top: 30px;
+
+    border: 1px solid #1554F7;
+    border-radius: 5px;
+
+    margin-top: 10px;
+
+    color: #1554F7;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+
+    cursor: pointer;
+
+    background: none;
+}
+
+.add:hover {
+    background: #1554F7;
+    border: 1px solid #1554F7;
+    border-radius: 20px;
+    color: #FFFFFF;
+
+    transition: all 400ms;
+}
+
+.radio {
+    position: relative;
+    width: 600px;
+    height: 80px;
+    top: 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.radioHeader {
+    position: relative;
+    width: 600px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    text-align: center;
+
+    /*color: #1554F7;*/
+}
+
+.radioChoice {
+    position: relative;
+
+    left: 147px;
+
+    display: flex;
+}
+
+.secondRadio {
+    position: relative;
+    top: 25px;
+    display: flex;
+    left: 230px;
+    margin-bottom: 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+}

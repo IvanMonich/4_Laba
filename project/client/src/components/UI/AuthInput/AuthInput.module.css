@@ -1,0 +1,21 @@
+.authInput {
+    position: relative;
+    width: 460px;
+    height: 56px;
+    left: 0;
+    top: 20px;
+
+    border: 1px grey solid;
+    border-radius: 7px;
+    padding: 0 34px 0 16px;
+
+    background: #DEE0EB;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 5px 0;
+}

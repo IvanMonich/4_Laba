@@ -1,0 +1,147 @@
+.backgroundTrue {
+    position: relative;
+    width: 970px;
+    height: 100px;
+
+    left: 10px;
+    margin-top: 10px;
+
+    /*top: 10px;*/
+    background: #00030b;
+
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.backgroundFalse {
+    position: relative;
+    width: 970px;
+    height: 100px;
+
+    left: 10px;
+    margin-top: 10px;
+
+    /*top: 10px;*/
+    background: #00030b;
+
+    border: 1px solid red;
+    border-radius: 14px;
+}
+
+.sum {
+    position: absolute;
+
+    top: calc(50% - 12px);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 24px;
+    margin-left: 10px;
+
+    color: #FFFFFF;
+}
+
+.count {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100px;
+    margin-left: 14px;
+
+    color: green;
+}
+
+.count2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100px;
+    margin-left: 14px;
+
+    color: red;
+}
+
+.open {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+
+    left: calc(100% - 125px);
+    top: calc(50% - 25px);
+
+    border: 1px solid #1554F7;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+
+    cursor: pointer;
+
+    background: #090f24;
+}
+
+.open:hover {
+    color: #1554F7;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+
+    transition: all 400ms;
+}
+
+.category {
+    position: absolute;
+
+    left: 300px;
+    top: 43px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.reason {
+    position: absolute;
+
+    left: 500px;
+    top: 43px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.date {
+    position: absolute;
+
+    left: 700px;
+    top: 43px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

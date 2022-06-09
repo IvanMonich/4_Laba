@@ -1,0 +1,33 @@
+.open {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+
+    left: calc(100% - 125px);
+    top: calc(50% - 25px);
+
+    border: 1px solid #1554F7;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+
+    cursor: pointer;
+
+    background: #090f24;
+}
+
+.open:hover {
+    color: #1554F7;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+
+    transition: all 400ms;
+}

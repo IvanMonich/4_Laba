@@ -1,0 +1,266 @@
+.header {
+    position: absolute;
+
+    width: 1000px;
+    height: 200px;
+
+    top: 20px;
+    left: calc(50% - 500px);
+
+    border-radius: 14px;
+    border: 1px #1554F7 solid;
+
+    background: #090f24;
+}
+
+.middle {
+    position: absolute;
+
+    width: 1000px;
+    height: 390px;
+
+    display: block;
+    /*gap: 100px;*/
+
+    /*grid-template-columns: 980px;*/
+    /*grid-template-rows: 10px;*/
+
+    top: 230px;
+    left: calc(50% - 500px);
+
+    border-radius: 14px;
+    border: 1px solid #1554F7;
+
+    background: #090f24;
+
+    overflow: auto;
+    /*background: rgba(222, 224, 235, 0.27);*/
+}
+
+.middle::-webkit-scrollbar {
+    width: 8px;
+}
+
+.middle::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #18aaaa;
+}
+
+.middle::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+
+.footer {
+    position: absolute;
+
+    width: 1000px;
+    height: 100px;
+
+    top: 1230px;
+    left: calc(50% - 500px);
+}
+
+.filterFolder {
+    position: fixed;
+    top: 20px;
+    left: calc(50% - 950px);
+
+    width: 400px;
+    height: 600px;
+
+    background: #090f24;
+    border: 1px solid #1554F7;
+    border-radius: 14px;
+}
+
+.filterHeader {
+    position: relative;
+    width: 360px;
+    height: 50px;
+
+    left: calc(50% - 180px);
+
+    border-bottom: 1px solid #1554F7;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.filterCategory {
+    position: relative;
+    width: 250px;
+    height: 100px;
+
+    top: 20px;
+
+    left: calc(50% - 125px);
+
+    /*border-bottom: 1px solid #1554F7;*/
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border-bottom: 1px #1554F7 solid;
+}
+
+.radioChoice {
+    position: relative;
+
+    top: 10px;
+    left: -29px;
+
+    display: flex;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.filterDate {
+    position: relative;
+    width: 250px;
+    height: 100px;
+
+    top: 40px;
+    left: calc(50% - 125px);
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border-bottom: 1px #1554F7 solid;
+}
+
+.radioChoice2 {
+    position: relative;
+
+    top: 10px;
+    left: 7px;
+
+    display: flex;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.filterButton {
+    position: relative;
+
+    width: 250px;
+    height: 50px;
+
+    left: calc(50% - 125px);
+    top: 35px;
+
+    margin-top: 15px;
+
+    border: 1px #1554F7 solid;
+    border-radius: 7px;
+
+    background: #00030b;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.filterButton:hover {
+    background: #FFFFFF;
+    color: #1554F7;
+    border: 1px #FFFFFF solid;
+
+    transition: all 400ms;
+}
+
+.sortingFolder {
+    position: fixed;
+    top: 20px;
+    left: calc(50% + 550px);
+
+    width: 400px;
+    height: 600px;
+
+    background: #090f24;
+    border: 1px solid #1554F7;
+    border-radius: 14px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sortingFolder hr {
+    position: relative;
+    width: 250px;
+    top: 30px;
+    height: 1px;
+    border: 0;
+    background: #1554F7;
+}
+
+.radioSorting {
+    position: relative;
+
+    height: 20px;
+
+    top: 20px;
+    left: 12px;
+
+    display: flex;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.firstChart {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+    top: 650px;
+    left: calc(50% - 500px);
+
+
+}
+
+.secondChart {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+    top: 650px;
+    left: calc(50% + 250px);
+}
